@@ -29,7 +29,7 @@
                                             <ul class="dropdown-menu">
                                                 @foreach($Service as $item)
                                                 <li>
-                                                    <a class="dropdown-item"  href="{{ route('corporatedetail' , $item->slug)}}" title="{{ $item->title }}">
+                                                    <a class="dropdown-item"  href="{{ route('servicedetail' , $item->slug)}}" title="{{ $item->title }}">
                                                         {{ $item->title }}
                                                     </a>
                                                 </li>
