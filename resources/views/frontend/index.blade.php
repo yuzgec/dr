@@ -92,7 +92,7 @@
 
                     <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom">
                         <span class="thumb-info-wrapper">
-                            <img src="https://picsum.photos/600/400?random={{ $item->id }}{{--{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}--}}" class="img-fluid" alt="{{ $item->title }}">
+                            <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}" class="img-fluid" alt="{{ $item->title }}">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner line-height-1">{{ $item->title }}</span>
                                 <span class="thumb-info-show-more-content opacity-7"><p class="mb-0 text-1 line-height-5">Buraya kısa bir açıklama yazısı gelebilir. 1 veya 2 cümlededen oluşan</p></span>
@@ -125,7 +125,7 @@
                         <div class="card border-0 border-radius-0 box-shadow-1 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" style="animation-delay: 500ms;">
                             <div class="card-body p-4 z-index-1">
                                 <a href="{{ route('blogdetail' , $item->slug)}}" title="{{ $item->title }}">
-                                    <img src="https://picsum.photos/600/400?random={{ $item->id }}{{--{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}--}}" class="img-fluid" alt="{{ $item->title }}">
+                                    <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}" class="img-fluid" alt="{{ $item->title }}">
                                 </a>
                                 <p class="text-uppercase text-1 mb-3 pt-1 text-color-default">
                                     {{ $item->created_at->diffForHumans()  }}</time> <span class="opacity-3 d-inline-block px-2">|</span> Dr. Turan Çetin</p>
