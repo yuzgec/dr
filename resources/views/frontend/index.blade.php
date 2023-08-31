@@ -12,7 +12,7 @@
                 </div>
                 <div class="overflow-hidden mb-3">
                     <p class="font-weight-bold text-primary text-uppercase mb-0 appear-animation animated maskUp appear-animation-visible"
-                       data-appear-animation="maskUp" data-appear-animation-delay="500" style="animation-delay: 500ms;">Psikiyatri ve Psikoterapist</p>
+                       data-appear-animation="maskUp" data-appear-animation-delay="500" style="animation-delay: 500ms;">Psikiyatrist ve Psikoterapist</p>
                 </div>
                 <p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">
                     Lisans eğitimini İstanbul Üniversitesi İstanbul Tıp Fakültesi’nde 2001 yılında tamamladı. Tıp fakültesini bitirdikten sonra 2002 yılında Bakırköy
@@ -25,11 +25,11 @@
                 <hr class="solid my-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" style="animation-delay: 900ms;">
                 <div class="row align-items-center appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" style="animation-delay: 1000ms;">
                     <div class="col-lg-6">
-                        <a href="#" class="btn btn-modern btn-dark mt-3">Çalışma Alanlarım</a>
-                        <a href="#" class="btn btn-modern btn-primary mt-3">İletişime Geç</a>
+                        <a href="{{ route('service') }}" class="btn btn-modern btn-dark mt-3">Çalışma Alanlarım</a>
+                        <a href="{{ route('contactus') }}" class="btn btn-modern btn-primary mt-3">İletişime Geç</a>
                     </div>
                     <div class="col-sm-6 text-lg-end my-4 my-lg-0">
-                        <strong class="text-uppercase text-1 me-3 text-dark">follow me</strong>
+                        <strong class="text-uppercase text-1 me-3 text-dark">Takip Et</strong>
                         <ul class="social-icons float-lg-end">
                             <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
                             <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
