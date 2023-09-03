@@ -1,4 +1,4 @@
-<div class="card bg-primary border-0 border-radius-0 custom-box-shadow-1">
+<div class="card bg-primary border-0 border-radius-0 custom-box-shadow-1" id="form">
     <div class="card-body">
         <h3 class="text-transform-none text-color-light font-weight-bold mb-5">HIZLI İLETİŞİM FORMU</h3>
         <form class="contact-form custom-form-style-1 form-errors-light" action="{{ route('form') }}" method="POST">
