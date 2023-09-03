@@ -18,7 +18,7 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li>
-                                            <a class="nav-link active" href="{{ route('home') }}">
+                                            <a class="nav-link" href="{{ route('home') }}">
                                                 Anasayfa
                                             </a>
                                         </li>
