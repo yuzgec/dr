@@ -1,7 +1,7 @@
 @extends('frontend.layout.app')
 @section('content')
     @include('frontend.layout.slider')
-    <div class="container pt-5">
+    <div class="container pt-5 mt-5">
         <div class="row py-4 mb-2">
             <div class="col-md-7 order-2">
                 <div class="overflow-hidden">
@@ -37,15 +37,14 @@
                     <div class="col-sm-6 text-lg-end my-4 my-lg-0">
                         <strong class="text-uppercase text-1 me-3 text-dark">Takip Et</strong>
                         <ul class="social-icons float-lg-end">
-                            <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="social-icons-instagram"><a href="http://www.instagram.com/drturancetinofficial" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li class="social-icons-youtube"><a href="http://www.youtube.com/" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-md-5 order-md-2 mb-4 mb-lg-0 appear-animation animated fadeInRightShorter appear-animation-visible" data-appear-animation="fadeInRightShorter" style="animation-delay: 100ms;">
-                <img src="/frontend/dr-dr.jpg" class="img-fluid mb-2" alt="Dr Turan Çetin">
+                <img src="/hakkimizda.jpg" class="img-fluid mb-2" alt="Dr Turan Çetin" style="border-radius: 0 25px 0 25px;box-shadow: 5px 5px 1px gray">
             </div>
         </div>
     </div>
