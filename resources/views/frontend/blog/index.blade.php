@@ -1,6 +1,5 @@
 @extends('frontend.layout.app')
 @section('content')
-
     <section class="page-header page-header-modern bg-color-quaternary page-header-md custom-page-header">
         <div class="container">
             <div class="row mt-3">

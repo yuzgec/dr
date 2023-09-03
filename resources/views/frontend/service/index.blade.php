@@ -25,7 +25,7 @@
 
                     <span class="thumb-info thumb-info-no-borders thumb-info-no-borders-rounded thumb-info-lighten thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom">
                         <span class="thumb-info-wrapper">
-                            <img src="https://picsum.photos/600/400?random={{ $item->id }}{{--{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}--}}" class="img-fluid" alt="{{ $item->title }}">
+                            <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}" class="img-fluid" alt="{{ $item->title }}">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner line-height-1">{{ $item->title }}</span>
                                 <span class="thumb-info-show-more-content opacity-7"><p class="mb-0 text-1 line-height-5">Buraya kısa bir açıklama yazısı gelebilir. 1 veya 2 cümlededen oluşan</p></span>
