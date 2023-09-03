@@ -101,7 +101,6 @@
                             <img src="{{ (!$item->getFirstMediaUrl('page')) ? '/resimyok.jpg' : $item->getFirstMediaUrl('page', 'thumb') }}" class="img-fluid" alt="{{ $item->title }}">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner line-height-1">{{ $item->title }}</span>
-                                <span class="thumb-info-show-more-content opacity-7"><p class="mb-0 text-1 line-height-5">Buraya kısa bir açıklama yazısı gelebilir. 1 veya 2 cümlededen oluşan</p></span>
                             </span>
                         </span>
                     </span>
