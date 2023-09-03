@@ -3,7 +3,7 @@
         <div class="row py-5 justify-content-center">
             <div class="col-md-4 col-lg-3 mb-4 mb-lg-0 text-center">
                 <a href="{{ route('home') }}" class="pe-0 pe-lg-3">
-                    <img alt="{{ config('app.name') }}" src="/uzman-dr-turan-cetin-beyaz.png" height="50">
+                    <img alt="Dr. Turan Çetin" src="/uzman-dr-turan-cetin-beyaz.png" height="50">
                 </a>
             </div>
             <div class="col-md-9 mb-4 mb-lg-0 d-flex align-items-center">
@@ -14,17 +14,17 @@
                                 <a href="{{ route('home') }}" class="text-3 text-white">Anasayfa</a>
                             </li>
                             <li>
-                                <a href="#" class="text-3 text-white">Hakkımda</a>
+                                <a href="{{ route('corporatedetail', 'hakkimda') }}" class="text-3 text-white">Hakkımda</a>
                             </li>
                             <li>
-                                <a class="text-3 text-white" href="#">Çalışma Alanları</a>
+                                <a class="text-3 text-white" href="{{ route('service') }}">Çalışma Alanları</a>
                             </li>
 
                             <li>
-                                <a href="#" class="text-3 text-white">Video Galeri</a>
+                                <a href="{{ route('video') }}" class="text-3 text-white">Video Galeri</a>
                             </li>
                             <li>
-                                <a href="#" class="text-3 text-white">Blog</a>
+                                <a href="{{ route('blog') }}" class="text-3 text-white">Blog</a>
                             </li>
                             <li>
                                 <a href="{{route('contactus')}}" class="text-3 text-white">İletim</a>
