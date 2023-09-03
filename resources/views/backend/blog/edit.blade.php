@@ -59,12 +59,17 @@
                         Blog Kapak Resim
                     </h4>
                 </div>
-                <div class="form-group mb-3 row p-2">
+                <div class="card-body justify-content-center align-items-center">
                     <div class="col">
-                        <img src="{{ $Edit->getFirstMediaUrl() }}" class="img-fluid mb-2" width="250px" alt="Image">
+                        <img src="{{ (!$Edit->getFirstMediaUrl('page')) ? '/backend/resimyok.jpg': $Edit->getFirstMediaUrl('page')}}" class="img-fluid mb-2 mt-2" alt="Image">
                     </div>
-                </div>
-                <div class="p-2">
+                    @if($Edit->getFirstMediaUrl('page'))
+                        <label class="form-check form-check-single form-switch mb-1"  >
+                            <input class="form-check-input switch" type="checkbox" name="removeImage" value="0">
+                            <span style="margin-left: 15px" class="">Resmi Kaldır</span>
+                        </label>
+                    @endif
+
                     <x-form-file label="" name="image"></x-form-file>
                 </div>
             </div>

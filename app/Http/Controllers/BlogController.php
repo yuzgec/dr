@@ -36,9 +36,16 @@ class BlogController extends Controller
         $New->seo_key = $request->seo_key;
         $New->seo_title = $request->seo_title;
 
-        if($request->image){
-            $New->addMedia($request->image)->toMediaCollection();
+        if($request->hasfile('image')){
+            $New->addMedia($request->image)->withResponsiveImages()->toMediaCollection('page');
         }
+
+        if($request->hasfile('gallery')) {
+            foreach ($request->gallery as $item){
+                $New->addMedia($item)->withResponsiveImages()->toMediaCollection('gallery');
+            }
+        }
+
 
         $New->save();
         toast(SWEETALERT_MESSAGE_CREATE,'success');
@@ -75,10 +82,21 @@ class BlogController extends Controller
         $Update->seo_key = $request->seo_key;
         $Update->save();
 
-        if ($request->hasFile('image')) {
-            $Update->media()->delete();
-            $Update->addMedia($request->image)->toMediaCollection();
+        if($request->removeImage == "1"){
+            $Update->media()->where('collection_name', 'page')->delete();
         }
+
+        if ($request->hasFile('image')) {
+            $Update->media()->where('collection_name', 'page')->delete();
+            $Update->addMedia($request->image)->withResponsiveImages()->toMediaCollection('page');
+        }
+
+        if($request->hasfile('gallery')) {
+            foreach ($request->gallery as $item){
+                $Update->addMedia($item)->withResponsiveImages()->toMediaCollection('gallery');
+            }
+        }
+
         toast(SWEETALERT_MESSAGE_UPDATE,'success');
         return redirect()->route('blog.index');
 
