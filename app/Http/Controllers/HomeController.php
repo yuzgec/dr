@@ -98,7 +98,7 @@ class HomeController extends Controller
         $New->message =  $request->message;
         $New->save();
 
-        return back();
+        return redirect()->route('home');
     }
 
 }
