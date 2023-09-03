@@ -26,44 +26,13 @@
                 @if($Detail->getFirstMediaUrl('page'))
                     <img src="{{ $Detail->getFirstMediaUrl('page') }}" class="img-fluid mb-3" alt="{{ $Detail->title }}">
                 @endif
-
                 {!!  $Detail->desc !!}
             </div>
             <div class="col-lg-4 position-relative">
                 <aside class="sidebar" data-plugin-sticky="" data-plugin-options="{'minWidth': 991, 'containerSelector': '.container', 'padding': {'top': 120}}">
-                    <div class="card bg-primary border-0 border-radius-0 custom-box-shadow-1">
-                        <div class="card-body">
-                            <h3 class="text-transform-none text-color-light font-weight-bold mb-5">HIZLI İLETİŞİM FORMU</h3>
-                            <form class="contact-form custom-form-style-1 form-errors-light" action="" method="POST">
 
-                                <div class="row">
-                                    <div class="form-group col mb-3">
-                                        <input type="text" value="" class="form-control" name="name" id="name" required="" placeholder="Adınız Soyadınız *">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col mb-3">
-                                        <input type="email" value=""  class="form-control" name="email" id="email" required="" placeholder="E-mail *">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col mb-3">
-                                        <input type="text" value="" class="form-control" name="phone" id="phone" required="" placeholder="Telefon *">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col mb-4">
-                                        <textarea rows="3" class="form-control" name="message" id="message" required="" placeholder="Mesajınız *"></textarea>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="form-group col text-lg-end mb-0">
-                                        <button type="submit" class="btn custom-btn-primary-darken font-weight-bold btn-px-5 btn-py-3 text-white" data-loading-text="Loading...">MESAJI GÖNDER</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                    @include('frontend.layout.form')
+
                     <div class="card border-0 border-radius-0 custom-box-shadow-1 px-2 ">
                         <div class="card-body">
                             <h3 class="text-transform-none font-weight-bold pb-3 mb-4">ÇALIŞMA ALANLARIM</h3>
