@@ -40,7 +40,7 @@
                                 @foreach($Service as $item)
                                 <li>
                                     <a  class="text-decoration-none text-color-dark text-color-hover-primary" href="{{ route('servicedetail' , $item->slug)}}" title="{{ $item->title }}">
-                                        {{ $item->title }}
+                                        <i class="icon-arrow-right icons"></i> {{ $item->title }}
                                     </a>
                                 </li>
                                 @endforeach

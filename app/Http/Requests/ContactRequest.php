@@ -24,7 +24,7 @@ class ContactRequest extends FormRequest
             'name.max'                  => 'İsim Soyisim en fazla 50 karakterden oluşmalıdır.',
             'email.required'            => 'Email alanı alanı zorunludur.',
             'email.email'               => 'Geçerli bir email adresi yazınız.',
-            'phone.required'          => 'Telefon alanı zorunludur.',
+            'phone.required'            => 'Telefon alanı zorunludur.',
             'message.required'          => 'Mesaj alanı zorunludur.',
         ];
     }

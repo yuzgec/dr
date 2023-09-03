@@ -8,22 +8,25 @@
                 <div class="container position-relative z-index-3 pb-5 h-100">
                     <div class="row align-items-center pb-5 h-100">
                         <div class="col">
-                            <h1 class="custom-secondary-font text-color-light font-weight-extra-bold text-8 line-height-1 line-height-sm-3 mb-5 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
-                                BURAYA SLOGAN VE TEDAVİ<br><span class="custom-secondary-font text-4-5">İLE İLGİLİ BİR TEXT</span>
-                            </h1>
+                            <h2 class="custom-secondary-font text-color-light font-weight-extra-bold text-8 line-height-1 line-height-sm-3 mb-1
+                                appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
+                                PSİKOTERAPİ</h2><span class="text-color-light text-4-5 mb-2">Psikoterapi ile psikopatolojilerinizi fark <br>edebilmek ve yaşama daha olumlu bakabilmek mümkün</span>
+                            <br>
                             <a href="#" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">İLETİŞİME GEÇ</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="owl-item position-relative pt-5" style="background-image: url(https://picsum.photos/1920/1080?random=2); background-size: cover; background-position: center;">
+            <div class="owl-item position-relative pt-5" style="background-image: url(https://picsum.photos/1920/1080?random=1); background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-3 pb-5 h-100">
                     <div class="row align-items-center pb-5 h-100">
                         <div class="col">
-                            <h1 class="custom-secondary-font text-color-light font-weight-extra-bold text-8 line-height-1 line-height-sm-3 mb-5 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
-                                BURAYA SLOGAN VE TEDAVİ<br><span class="custom-secondary-font text-4-5">İLE İLGİLİ BİR TEXT</span>
-                            </h1>
+                            <h2 class="custom-secondary-font text-color-light font-weight-extra-bold text-8 line-height-1 line-height-sm-3 mb-1
+                                appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
+                                ANKSİYETE (KAYGI) BOZUKLUKLARI</h2><span class="text-color-light text-4-5 mb-2">Kişiye özel psikoterapi ve/veya farmakoterapi
+                                <br>yöntemleri ile kaygılarımızdan kurtulabiliriz</span>
+                            <br>
                             <a href="#" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">İLETİŞİME GEÇ</a>
                         </div>
                     </div>
@@ -35,27 +38,52 @@
                 <div class="container position-relative z-index-3 pb-5 h-100">
                     <div class="row align-items-center pb-5 h-100">
                         <div class="col">
-                            <h1 class="custom-secondary-font text-color-light font-weight-extra-bold text-8 line-height-1 line-height-sm-3 mb-5 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
-                                BURAYA SLOGAN VE TEDAVİ<br><span class="custom-secondary-font text-4-5">İLE İLGİLİ BİR TEXT</span>
-                            </h1>
+                            <h2 class="custom-secondary-font text-color-light font-weight-extra-bold text-8 line-height-1 line-height-sm-3 mb-1
+                                appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
+                                DEPRESYON</h2><span class="text-color-light text-4-5 mb-2">Depresyon tedavi edilebilir bir hastalıktır.</span>
+                            <br>
                             <a href="#" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">İLETİŞİME GEÇ</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="owl-item position-relative pt-5" style="background-image: url(https://picsum.photos/1920/1080?random=2); background-size: cover; background-position: center;">
+
+            <div class="owl-item position-relative pt-5" style="background-image: url(https://picsum.photos/1920/1080?random=1); background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-3 pb-5 h-100">
                     <div class="row align-items-center pb-5 h-100">
                         <div class="col">
-                            <h1 class="custom-secondary-font text-color-light font-weight-extra-bold text-8 line-height-1 line-height-sm-3 mb-5 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
-                                BURAYA SLOGAN VE TEDAVİ<br><span class="custom-secondary-font text-4-5">İLE İLGİLİ BİR TEXT</span>
-                            </h1>
+                            <h2 class="custom-secondary-font text-color-light font-weight-extra-bold text-8 line-height-1 line-height-sm-3 mb-1
+                                appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
+                                DIKKAT EKSİKLİĞİ VE <br>HİPERAKTİVİTE BOZUKLUĞU
+                            </h2><span class="text-color-light text-4-5 mb-2">Genellikle çocukluk çağında başlayan ve tedavi edilmediğinde
+                                <br>erişkinlik döneminde de devam edebilen bir hastalıktır
+                            </span>
+                            <br>
                             <a href="#" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">İLETİŞİME GEÇ</a>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="owl-item position-relative pt-5" style="background-image: url(https://picsum.photos/1920/1080?random=1); background-size: cover; background-position: center;">
+                <div class="container position-relative z-index-3 pb-5 h-100">
+                    <div class="row align-items-center pb-5 h-100">
+                        <div class="col">
+                            <h2 class="custom-secondary-font text-color-light font-weight-extra-bold text-8 line-height-1 line-height-sm-3 mb-1
+                                appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">
+                                BİPOLAR BOZUKLUK
+                            </h2><span class="text-color-light text-4-5 mb-2">Genellikle ergenlik döneminde başlayan, tedavi edilmediğinde
+                                <br>hayatımızı ciddi bir oranda etkileyen bir hastalık olup, tedavisi mümkündür.
+                            </span>
+                            <br>
+                            <a href="#" class="btn btn-primary btn-modern font-weight-bold text-2 py-3 btn-px-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">İLETİŞİME GEÇ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
         </div>
     </div>

@@ -24,48 +24,50 @@
             <div class="col-lg-8">
 
                 <h2 class="font-weight-bold text-color-dark">- İletişime Geç</h2>
-                <form class="contact-form custom-contact-form-style-1"  method="POST">
+                <form class="contact-form custom-contact-form-style-1" action="{{ route('form') }}" method="POST">
+                    @csrf
 
                     <div class="row">
-                        <div class="form-group col">
-                            <div class="custom-input-box">
-                                <input type="text" value="" maxlength="100" class="form-control" name="name" placeholder="İsim Soyisim*" required>
-                            </div>
+                        <div class="form-group col mb-3">
+                            <input type="text" value="{{ old('name') }}" class="form-control @if($errors->has('name')) is-invalid @endif" name="name" placeholder="Adınız Soyadınız *">
+                            @if($errors->has('name'))
+                                <div class="invalid-feedback">{{$errors->first('name')}}</div>
+                            @endif
                         </div>
                     </div>
                     <div class="row">
-                        <div class="form-group col">
-                            <div class="custom-input-box">
-                                <input type="email" value="" maxlength="100" class="form-control" name="email" placeholder="Email*" required>
-                            </div>
+                        <div class="form-group col mb-3">
+                            <input type="email" value="{{ old('email') }}"  class="@if($errors->has('email')) is-invalid @endif form-control" name="email" placeholder="E-mail *">
+                            @if($errors->has('name'))
+                                <div class="invalid-feedback">{{$errors->first('email')}}</div>
+                            @endif
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col mb-3">
+                            <input type="text" value="{{ old('phone') }}" class="@if($errors->has('phone')) is-invalid @endif form-control" name="phone"  placeholder="Telefon *">
+                            @if($errors->has('name'))
+                                <div class="invalid-feedback">{{$errors->first('phone')}}</div>
+                            @endif
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="form-group col">
-                            <div class="custom-input-box">
-                                <input type="email" value="" maxlength="100" class="form-control" name="email" placeholder="Telefon*" required>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="form-group col">
-                            <div class="custom-input-box">
-                                <input type="email" value="" maxlength="100" class="form-control" name="email" placeholder="Konu*" required>
-                            </div>
+                        <div class="form-group col mb-3">
+                            <input type="text" value="{{ old('subject') }}" class="form-control" name="subject"  placeholder="Konu">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="form-group col">
-                            <div class="custom-input-box">
-                                <textarea maxlength="5000" rows="10" class="form-control" name="message" placeholder="Mesajınız*" required></textarea>
-                            </div>
+                        <div class="form-group col mb-4">
+                            <textarea rows="3" class="@if($errors->has('message')) is-invalid @endif form-control" name="message" placeholder="Mesajınız *">{{ old('message') }}</textarea>
+                            @if($errors->has('name'))
+                                <div class="invalid-feedback">{{$errors->first('message')}}</div>
+                            @endif
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col">
-                            <input type="submit" value="Mesajı Gönder" class="btn btn-outline custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase mb-4" data-loading-text="Loading...">
+                            <input type="submit" value="Mesajı Gönder" class="btn btn-outline custom-border-width btn-primary custom-border-radius font-weight-semibold text-uppercase mb-4">
                         </div>
                     </div>
                 </form>
