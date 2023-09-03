@@ -1,7 +1,5 @@
 <script src="/frontend/vendor/plugins/js/plugins.min.js"></script>
 <script src="/frontend/js/theme.js"></script>
-<script src="/frontend/js/views/view.contact.js"></script>
-<script src="/frontend/js/custom.js"></script>
 <script src="/frontend/js/theme.init.js"></script>
 <script>
     $(document).ready(function() {

@@ -48,7 +48,6 @@
                 </div>
             </div>
 
-
             <div class="owl-item position-relative pt-5 overlay overlay-show overlay-op-7" style="background-image: url(/dikkat-eksikligi.jpg); background-size: cover; background-position: center;">
                 <div class="container position-relative z-index-3 pb-5 h-100">
                     <div class="row align-items-center pb-5 h-100">

@@ -15,13 +15,19 @@
                        data-appear-animation="maskUp" data-appear-animation-delay="500" style="animation-delay: 500ms;">Psikiyatrist ve Psikoterapist</p>
                 </div>
                 <p class="lead appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">
-                    Lisans eğitimini İstanbul Üniversitesi İstanbul Tıp Fakültesi’nde 2001 yılında tamamladı. Tıp fakültesini bitirdikten sonra 2002 yılında Bakırköy
-                    Prof. Dr. Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları Eğitim ve Araştırma
-                    Hastanesi Psikiyatri alanında tıpta uzmanlık eğitimine başladı ve 2008 yılında ihtisas eğitimini tamamladı.</p>
+                    1994 yılında Malatya Fen Lisesi’nden mezun oldum. Lisans eğitimimi İstanbul Üniversitesi İstanbul Tıp Fakültesi’nde 2001 yılında tamamladım. Tıp fakültesini bitirdikten sonra 2002 yılında Bakırköy Prof. Dr. Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi Psikiyatri alanında tıpta uzmanlık eğitimine başladım ve 2008 yılında ihtisas eğitimimi tamamladım.
+                </p>
+
                 <p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">
+                    2008-2009 yıllları arasında askerlik görevimi Kayseri Askeri Hastanesi’nde yaptım. 2009-2021 yılları arasında Bakırköy Prof. Dr. Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi Genel Psikiyatri Servisleri’nde Şizofreni, Atipik Psikoz, Depresif Bozukluklar, Anksiyete Bozuklukları (Sosyal Anksiyete Bozukluğu, Travma Sonrası Stres Bozukluğu,Yaygın Anksiyete Bozukluğu, Obsesif Kompulsif Bozukluk, Panik Bozukluk…), Bipolar Bozukluk gibi çeşitli psikiyatrik tanılı yatarak tedavi gerektiren hastaları takip ve tedavi ettim ve sonrasında AMATEM (Alkol ve Uyuşturucu Madde Bağımlıları Tedavi ve Araştırma Merkezi) biriminde yatarak tedavi, grup psikoterapisi, aile eğitimi ve terapisi, ayaktan rehabilitasyon programları gibi çeşitli alanlarda görev aldım. 2012 yılında Sigara, Alkol ve Madde Bağımlılığı Tedavi Programı (SAMBA) uygulayıcı eğitimini aldım.
+                </p>
+                <p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">
+                    2014 yılında T.C. Başbakanlık Türk İşbirliği ve Koordinasyon Ajansı Başkanlığı aracılığıyla Bağımlılık Tedavi Merkezi kurulumu için Filistin inceleme gezisi görevinde bulundum. 2015 yılında Uyuşturucu ile Mücadele Danışma ve Destek Hattı Eğiticiliği görevini üstlendim. 2016 yılında İstanbul Halk Sağlığı tarafından düzenlenen Tütün Kontrolü ve Sigara Bağımlılığı eğitime katıldım. Dinamik yönelimli psikoterapi, Bilişsel Davranışçı Terapi ve Cinsel İşlev Bozuklukları gibi çeşitli terapi alanlarında eğitim aldım. Kumar Bağımlılığının bireysel ve grup psikoterapisini yürüttüm. Eylül 2021’de kendi psikiyatri merkezimi kurmak üzere hastanedeki görevimden ayrıldım.                <p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">
                     Lisans eğitimini İstanbul Üniversitesi İstanbul Tıp Fakültesi’nde 2001 yılında tamamladı. Tıp fakültesini bitirdikten sonra 2002 yılında Bakırköy
                     Prof. Dr. Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları Eğitim ve Araştırma
-                    Hastanesi Psikiyatri alanında tıpta uzmanlık eğitimine başladı ve 2008 yılında ihtisas eğitimini tamamladı.</p>
+                    Hastanesi Psikiyatri alanında tıpta uzmanlık eğitimine başladı ve 2008 yılında ihtisas eğitimini tamamladı.
+                </p>
+
                 <hr class="solid my-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" style="animation-delay: 900ms;">
                 <div class="row align-items-center appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" style="animation-delay: 1000ms;">
                     <div class="col-lg-6">
