@@ -114,7 +114,7 @@
                             <div class="feature-box-info">
                                 <h2 class="font-weight-bold text-color-dark">- Email</h2>
                                 <p class="text-4">
-                                    <a href="mailto:info@drturancetin.com" class="text-decoration-none">info@drturancetin.com</a><br>
+                                    <a href="mailto:pskturancetin@gmail.com" class="text-decoration-none">pskturancetin@gmail.com</a><br>
                                 </p>
                             </div>
                         </div>

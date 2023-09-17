@@ -23,9 +23,9 @@
                 </p>
                 <p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">
                     2014 yılında T.C. Başbakanlık Türk İşbirliği ve Koordinasyon Ajansı Başkanlığı aracılığıyla Bağımlılık Tedavi Merkezi kurulumu için Filistin inceleme gezisi görevinde bulundum. 2015 yılında Uyuşturucu ile Mücadele Danışma ve Destek Hattı Eğiticiliği görevini üstlendim. 2016 yılında İstanbul Halk Sağlığı tarafından düzenlenen Tütün Kontrolü ve Sigara Bağımlılığı eğitime katıldım. Dinamik yönelimli psikoterapi, Bilişsel Davranışçı Terapi ve Cinsel İşlev Bozuklukları gibi çeşitli terapi alanlarında eğitim aldım. Kumar Bağımlılığının bireysel ve grup psikoterapisini yürüttüm. Eylül 2021’de kendi psikiyatri merkezimi kurmak üzere hastanedeki görevimden ayrıldım.                <p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">
-                    Lisans eğitimini İstanbul Üniversitesi İstanbul Tıp Fakültesi’nde 2001 yılında tamamladı. Tıp fakültesini bitirdikten sonra 2002 yılında Bakırköy
+                   {{-- Lisans eğitimini İstanbul Üniversitesi İstanbul Tıp Fakültesi’nde 2001 yılında tamamladı. Tıp fakültesini bitirdikten sonra 2002 yılında Bakırköy
                     Prof. Dr. Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları Eğitim ve Araştırma
-                    Hastanesi Psikiyatri alanında tıpta uzmanlık eğitimine başladı ve 2008 yılında ihtisas eğitimini tamamladı.
+                    Hastanesi Psikiyatri alanında tıpta uzmanlık eğitimine başladı ve 2008 yılında ihtisas eğitimini tamamladı.--}}
                 </p>
 
                 <hr class="solid my-4 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="900" style="animation-delay: 900ms;">
@@ -38,7 +38,7 @@
                         <strong class="text-uppercase text-1 me-3 text-dark">Takip Et</strong>
                         <ul class="social-icons float-lg-end">
                             <li class="social-icons-instagram"><a href="http://www.instagram.com/drturancetinofficial" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
-                            <li class="social-icons-youtube"><a href="http://www.youtube.com/" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
+                            <li class="social-icons-youtube"><a href="https://www.youtube.com/@drturancetin" target="_blank" title="youtube"><i class="fab fa-youtube"></i></a></li>
                         </ul>
                     </div>
                 </div>

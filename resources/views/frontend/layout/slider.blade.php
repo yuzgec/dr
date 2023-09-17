@@ -93,10 +93,10 @@
                 </a>
             </div>
             <div class="col-md-3 col-lg-2">
-                <a class="text-decoration-none" href="info@drturancetin.com" target="_blank" title="Email Gönder">
+                <a class="text-decoration-none" href="pskturancetin@gmail.com" target="_blank" title="Email Gönder">
                     <span class="custom-call-to-action">
                         <span class="action-title text-white">Email Adresi</span>
-                        <span class="action-info text-color-light">info@drturancetin.com</span>
+                        <span class="action-info text-color-light">pskturancetin@gmail.com</span>
                     </span>
                 </a>
             </div>
