@@ -20,23 +20,6 @@
     <div class="container py-2 mt-3">
         <div class="row">
 
-            <div class="col-lg-6  mb-5">
-                <h5>Kumar Bağımlılığı Nedir ?</h5>
-                <div class="embed-responsive-borders border p-2">
-                    <div class="ratio ratio-16x9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6OGayCHOBG8" title="Kumar Bağımlılığı Nedir ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-6  mb-5">
-                <h5>Kumar Bağımlılığı Tedavi Yöntemleri Nelerdir ?</h5>
-                <div class="embed-responsive-borders border p-2">
-                    <div class="ratio ratio-16x9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mZr6C6v2VvE" title="Kumar Bağımlılığı Tedavi Yöntemleri Nelerdir ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
-                    </div>
-                </div>
-            </div>
 
             <div class="col-lg-6  mb-5">
                 <h5>Kaygı Bozukluğu Nedir?</h5>
