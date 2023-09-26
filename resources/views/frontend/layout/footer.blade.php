@@ -27,7 +27,7 @@
                                 <a href="{{ route('blog') }}" class="text-3 text-white">Blog</a>
                             </li>
                             <li>
-                                <a href="{{route('contactus')}}" class="text-3 text-white">İletim</a>
+                                <a href="{{route('contactus')}}" class="text-3 text-white">İletişim</a>
                             </li>
                         </ul>
                     </nav>

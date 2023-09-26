@@ -19,7 +19,11 @@
                 </p>
 
                 <p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">
-                    2008-2009 yıllları arasında askerlik görevimi Kayseri Askeri Hastanesi’nde yaptım. 2009-2021 yılları arasında Bakırköy Prof. Dr. Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi Genel Psikiyatri Servisleri’nde Şizofreni, Atipik Psikoz, Depresif Bozukluklar, Anksiyete Bozuklukları (Sosyal Anksiyete Bozukluğu, Travma Sonrası Stres Bozukluğu,Yaygın Anksiyete Bozukluğu, Obsesif Kompulsif Bozukluk, Panik Bozukluk…), Bipolar Bozukluk gibi çeşitli psikiyatrik tanılı yatarak tedavi gerektiren hastaları takip ve tedavi ettim ve  grup psikoterapisi, aile eğitimi ve terapisi, ayaktan rehabilitasyon programları gibi çeşitli alanlarda görev aldım. 2012 yılında SAMBA programında uygulayıcı eğitimini aldım.
+                    2008-2009 yıllları arasında askerlik görevimi Kayseri Askeri Hastanesi’nde yaptım. 2009-2021 yılları arasında Bakırköy Prof. Dr.
+                    Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi Genel Psikiyatri Servisleri’nde Şizofreni,
+                    Atipik Psikoz, Depresif Bozukluklar, Anksiyete Bozuklukları (Sosyal Anksiyete Bozukluğu, Travma Sonrası Stres Bozukluğu,Yaygın Anksiyete Bozukluğu,
+                    Obsesif Kompulsif Bozukluk, Panik Bozukluk…), Bipolar Bozukluk gibi çeşitli psikiyatrik tanılı yatarak tedavi gerektiren hastaları takip ve tedavi ettim ve AMATEM biriminde grup psikoterapisi,
+                    aile eğitimi ve terapisi, ayaktan rehabilitasyon programları gibi çeşitli alanlarda görev aldım. 2012 yılında SAMBA programında uygulayıcı eğitimini aldım.
                 </p>
                 <p class="pb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800" style="animation-delay: 800ms;">
                     2014 yılında T.C. Başbakanlık Türk İşbirliği ve Koordinasyon Ajansı Başkanlığı aracılığıyla Tedavi Merkezi kurulumu için Filistin inceleme gezisi görevinde bulundum.
