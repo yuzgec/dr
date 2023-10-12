@@ -14,7 +14,7 @@ class VideoCategoryRequest extends FormRequest
     public function rules()
     {
         return [
-            'title'                 => 'required|min:6|max:99|unique:video_categories,title,'.$this->id,
+            'title'                 => 'required|min:3|max:99|unique:video_categories,title,'.$this->id,
         ];
     }
 
@@ -23,7 +23,7 @@ class VideoCategoryRequest extends FormRequest
         return [
             'title.required'            => 'Video Kategori başlığını giriniz',
             'title.max'                 => 'Video Kategori başlığı en fazla 99 karakter olabilir',
-            'title.min'                 => 'Video Kategori başlığı en fazla 6 karakter olabilir',
+            'title.min'                 => 'Video Kategori başlığı en az 3 karakter olabilir',
             'title.unique'              => 'Video Kategori başlığı daha önce eklenmiş',
         ];
     }

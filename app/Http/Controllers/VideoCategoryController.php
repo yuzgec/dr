@@ -27,7 +27,6 @@ class VideoCategoryController extends Controller
         $New = new VideoCategory;
 
         $New->title = $request->title;
-        $New->slug = seo($request->title);
 
         $New->short = $request->short;
         $New->desc = $request->desc;
@@ -73,7 +72,6 @@ class VideoCategoryController extends Controller
         $Update = VideoCategory::findOrFail($id);
 
         $Update->title = $request->title;
-        $Update->slug = seo($request->title);
         $Update->short = $request->short;
         $Update->desc = $request->desc;
 

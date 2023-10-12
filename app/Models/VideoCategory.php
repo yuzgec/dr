@@ -9,6 +9,7 @@ use Kalnoy\Nestedset\NodeTrait;
 use Spatie\Activitylog\LogOptions;
 use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
+use Spatie\Sluggable\HasSlug;
 use Spatie\Sluggable\SlugOptions;
 
 class VideoCategory extends Model implements HasMedia

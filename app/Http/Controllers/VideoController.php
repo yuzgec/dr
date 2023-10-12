@@ -28,7 +28,7 @@ class VideoController extends Controller
         $New = new Video;
 
         $New->title = $request->title;
-        $New->slug = seo($request->title);
+        $New->slug = $request->title;
         $New->video_url = $request->video_url;
         $New->category = $request->category;
         $New->desc = $request->desc;
@@ -36,10 +36,6 @@ class VideoController extends Controller
         $New->seo_desc = $request->seo_desc;
         $New->seo_key = $request->seo_key;
         $New->seo_title = $request->seo_title;
-
-        if($request->image){
-            $New->addMedia($request->image)->toMediaCollection();
-        }
 
         $New->save();
         toast(SWEETALERT_MESSAGE_CREATE,'success');
@@ -68,7 +64,7 @@ class VideoController extends Controller
         $Update = Video::findOrFail($id);
 
         $Update->title = $request->title;
-        $Update->slug = seo($request->title);
+        $Update->slug = $request->title;
         $Update->category = $request->category;
         $Update->video_url = $request->video_url;
         $Update->desc = $request->desc;
@@ -77,10 +73,6 @@ class VideoController extends Controller
         $Update->seo_key = $request->seo_key;
         $Update->save();
 
-        if ($request->hasFile('image')) {
-            $Update->media()->delete();
-            $Update->addMedia($request->image)->toMediaCollection();
-        }
         toast(SWEETALERT_MESSAGE_UPDATE,'success');
         return redirect()->route('video.index');
 
