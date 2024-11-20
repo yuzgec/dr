@@ -3,7 +3,7 @@
         <div class="row py-5 justify-content-center">
             <div class="col-md-4 col-lg-3 mb-4 mb-lg-0 text-center">
                 <a href="{{ route('home') }}" class="pe-0 pe-lg-3">
-                    <img alt="Dr. Turan Çetin" src="/uzman-dr-turan-cetin-beyaz.png" height="50">
+                    <img alt="Suadiye Uzman Doktor Turan Çetin" src="/uzman-dr-turan-cetin-beyaz.png" height="50">
                 </a>
             </div>
             <div class="col-md-9 mb-4 mb-lg-0 d-flex align-items-center">
